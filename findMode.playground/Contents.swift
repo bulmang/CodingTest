@@ -35,53 +35,8 @@
 //    return result
 //}
 //
-//solution([1,4,2,4,4,4,5])
-    
-//func solution(_ array: [Int]) -> Int {
-//    // 배열에서 각 원소의 등장 횟수를 저장할 딕셔너리 생성
-//    var countDict: [Int: Int] = [:]
-//    for element in array {
-//        countDict[element, default: 0] += 1
-//    }
-//
-//    // 딕셔너리에서 최빈값 찾기
-//    var maxCount = 0
-//    var mostFrequent = 0
-//    for (key, value) in countDict {
-//        if value > maxCount {
-//            maxCount = value
-//            mostFrequent = key
-//        } else if value == maxCount {
-//            mostFrequent = -1
-//        }
-//    }
-//    return mostFrequent
-//}
 
 import Foundation
-
-//func solution(_ array:[Int]) -> Int {
-//
-//    var maximum = 0
-//    var index = 0
-//    var myarray = [Int](repeating: 0, count: 1000)
-//
-//    for i in array {
-//        myarray[i] += 1
-//    }
-//
-//    for i in 0..<myarray.count{
-//        if maximum < myarray[i] {
-//            maximum = myarray[i]
-//            index = i
-//        }
-//        else if maximum == myarray[i] {
-//            index = -1
-//        }
-//    }
-//    return index
-//}
-
 
 
 func solution(_ array:[Int]) -> Int {
